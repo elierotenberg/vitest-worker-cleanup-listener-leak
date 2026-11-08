@@ -1,0 +1,11 @@
+{
+  "name": "vitest-worker-cleanup-listener-leak",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "vitest run && node report.mjs"
+  },
+  "devDependencies": {
+    "vitest": "5.1.0"
+  }
+}
